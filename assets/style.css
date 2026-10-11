@@ -402,3 +402,17 @@ fieldset.fld{border:0}
 }
 
 .callout .btn-ghost .ic{background:rgba(255,255,255,.16);box-shadow:none}
+
+/* SEO hizmet sayfaları */
+.svcl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px}
+.svcl{display:block;color:inherit;text-decoration:none;transition:transform .5s cubic-bezier(.32,.72,0,1)}
+.svcl:hover{transform:translateY(-4px)}
+.svcl .core{padding:26px 24px;height:100%;display:flex;flex-direction:column;gap:10px}
+.svcl .core>i{font-size:30px;color:var(--red)}
+.svcl h3{font-family:var(--serif);font-size:28px;line-height:1.05}
+.svcl p{color:var(--mute);font-size:15px;flex:1;margin:0}
+.intro2{display:grid;grid-template-columns:1fr 1.1fr;gap:56px;align-items:start}
+.intro2 p{font-size:18px;line-height:1.65;margin-bottom:14px;color:var(--ink-2)}
+.svc-detail .svc-text p{color:var(--ink-2);font-size:17.5px;line-height:1.65;margin:0 0 14px;max-width:62ch}
+@media (max-width:1060px){.intro2{grid-template-columns:1fr;gap:20px}}
+@media (max-width:640px){.intro2 p,.svc-detail .svc-text p{font-size:16.5px}.svcl h3{font-size:24px}}
