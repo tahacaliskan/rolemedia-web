@@ -288,3 +288,8 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
   .fgrid{grid-template-columns:1fr}
 }
 .chips label{position:relative}.chips input{left:0;top:0;width:1px;height:1px}
+/* bigger ROLE logo */
+.bar .logo svg{height:40px}
+.bar{padding:10px 10px 10px 22px}
+.fgrid .logo svg{height:52px}
+@media (max-width:560px){.bar .logo svg{height:34px}}
