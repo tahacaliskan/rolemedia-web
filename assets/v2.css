@@ -293,3 +293,12 @@ button{font:inherit;color:inherit;background:none;border:0;cursor:pointer}
 .bar{padding:10px 10px 10px 22px}
 .fgrid .logo svg{height:52px}
 @media (max-width:560px){.bar .logo svg{height:34px}}
+
+/* film detail pages */
+.film .fl{display:grid;grid-template-columns:minmax(0,420px) minmax(0,1fr);gap:clamp(28px,5vw,80px);align-items:end;margin-top:10px}
+.player video{width:100%;aspect-ratio:9/16;border-radius:22px;background:#000;box-shadow:inset 0 0 0 1px var(--line)}
+.film .huge{font-size:clamp(40px,5.6vw,92px)}
+.facts{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1px;margin-top:30px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--line)}
+.facts div{background:var(--bg);padding:14px 16px}.facts dt{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mut)}.facts dd{margin-top:4px;font-size:15px}
+.film .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+@media (max-width:860px){.film .fl{grid-template-columns:1fr}.player{max-width:420px}}

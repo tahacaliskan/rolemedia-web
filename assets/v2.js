@@ -3,7 +3,7 @@
   const $ = (s, r = document) => r.querySelector(s), $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const WA = '905349579693';
-  const M = '../media/';
+  const M = '/media/';
 
   /* menu */
   const bg = $('.burger');
